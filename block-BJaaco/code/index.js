@@ -3,8 +3,28 @@ let numbers = [6, 8, 10, 12, 43, 56, 98];
 let userIds = [1230, 234, 1278, 984, 763, 900];
 
 // 1. Add all the values of numbers and userIds array into the new newly created array named `collection`
-
+let collection=[sum1+sum2]
+let sum1=0;
+let sum2=0;
+for(i=0;i<numbers.length;i++){
+  sum1+=numbers[i];
+}
+// console.log(sum1);
+for(j=0;j<userIds.length;j++){
+  sum2+=userIds[j]
+}
+console.log(collection);
 // 2. Add all the even numbers from both arrays numbers and userIds into a newly created array named `evenCollection`
+// let evenCollection=[even1+even2];
+let numbers = [6, 8, 10, 12, 43, 56, 98];
+let userIds = [1230, 234, 1278, 984, 763, 900];
+// let evenCollection=0;
+let even1=0;
+for(i=0;i<numbers.length;i++){
+ if(numbers[i]%2==0){
+  console.log(numbers[i])
+ }
+}
 
 // 3. Add all the odd numbers from both arrays numbers and userIds into a newly created array named `oddCollection`
 
@@ -48,8 +68,8 @@ function times() {
     revert(['Ryan', 'John', 'Bran']); //['Bran', 'John', 'Ryan']
 */
 
-function revert() {
-  // your code
+function revert(input) {
+  
 }
 
 // Uncomment the code below and test the output
